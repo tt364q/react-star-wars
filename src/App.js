@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { getStarShips } from './services/swapi.js'
+import { getStarShips } from './services/sw-api.js'
 import StarShipCard from './components/StarShipCard/StarShipCard'
 
 function App() {

@@ -1,6 +1,6 @@
-const BASE_URI = 'https://swapi.dev/api/';
+const BASE_URL = 'http://swapi.dev/api/';
 
-// define a function to get all starship resources 
+// get all the starship resources
 export function getStarShips() {
-    return fetch(BASE_URI + 'starships/').then(res => res.json());
+    return fetch(BASE_URL + 'starships/').then(res => res.json());
 }
